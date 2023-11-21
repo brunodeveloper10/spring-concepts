@@ -1,15 +1,17 @@
-package br.com.noah.search;
+package br.com.noah.spring.basic;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+
+
 @SpringBootApplication
-public class SearchApplication {
+public class SpringBasicApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = SpringApplication.run(SearchApplication.class, args);
+		ApplicationContext applicationContext = SpringApplication.run(SpringBasicApplication.class, args);
 
 		//SortAlgorithm sortAlgorithm = applicationContext.getBean(QuickSort.class);
 		
@@ -22,6 +24,8 @@ public class SearchApplication {
 		System.out.println(binarySearch);
 
 		System.out.println(binarySearch1);
+
+
 	}
 
 }

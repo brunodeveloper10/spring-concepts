@@ -1,4 +1,4 @@
-package br.com.noah.search.algs;
+package br.com.noah.spring.basic.algs;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
